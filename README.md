@@ -23,3 +23,7 @@ CYN      929  -91.498 217.147  6.663  90.395 -70.870 208.333  0.049  0.583 -50.2
 IBIT     370   76.642  53.253  0.160   1.469 -14.406  13.458  0.380  1.171  59.305
 MSTR    3727   27.156  62.681  0.534   9.337 -26.002  29.156  0.423  1.532  25.416
 ```
+
+The script `xbeta.py` downloads price data from Yahoo Finance, saves the price data to a 
+CSV file, and does calculations. The script `xbeta_file.py` reads data from a CSV file and
+does the same calculations.
